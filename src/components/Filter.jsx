@@ -69,12 +69,12 @@ export default function Filter({ tasks, setTasks, taskCompletion, deleteTask }) 
                 type="checkbox"
                 checked={task.completed}
                 onChange={() => taskCompletion(task.id)}
-                className="w-5 h-5 cursor-pointer"
+                className="w-5 h-5 cursor-pointer accent-emerald-500"
               />
 
               <button
                 onClick={() => deleteTask(task.id)}
-                className="px-3 py-2 bg-red-500 text-white rounded-md hover:bg-red-600 transition"
+                className="px-3 py-2 bg-gray-700 text-white rounded-md hover:bg-red-600 transition"
               >
                 🗑️ Supprimer
               </button>

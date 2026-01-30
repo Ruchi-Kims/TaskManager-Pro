@@ -3,7 +3,7 @@ import checklistImage from "../assets/images/checklist.png";
 
 export default function Header() {
   return (
-    <header className="text-center bg-blue-600 p-4 sm:p-6 rounded-lg shadow-md">
+    <header className="text-center bg-emerald-600 p-4 sm:p-6 rounded-lg shadow-md">
       <img
         src={checklistImage}
         alt="Checklist"

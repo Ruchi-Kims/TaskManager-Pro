@@ -9,7 +9,7 @@ function App() {
   
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-100 to-black-300 text-gray-900 p-8">
+    <div className="min-h-screen bg-gray-900 from-blue-100 to-black-300 text-gray-900 p-8">
      
       <Header />
       <TaskForm />

@@ -34,7 +34,7 @@ export default function TaskForm() {
   }
 
   return (
-    <div className="max-w-xl mx-auto mt-6 sm:mt-8 p-4 sm:p-6 bg-red-500 rounded-lg shadow-md">
+    <div className="max-w-xl mx-auto mt-6 sm:mt-8 p-4 sm:p-6 bg-gray-800 rounded-lg shadow-md">
       
       <form
         onSubmit={handleSubmit}
@@ -47,14 +47,14 @@ export default function TaskForm() {
           placeholder="Ajoute la tache"
           value={task}
           onChange={(e) => setTask(e.target.value)}
-          className="w-full px-4 py-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
+          className="w-full px-4 py-3 border border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
         />
 
         <button
           type="submit"
-          className="w-full sm:w-auto px-4 py-3 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition"
+          className="w-full sm:w-auto px-4 py-3 bg-emerald-500 text-white rounded-md hover:bg-blue-600 transition"
         >
-         Ajouter une tacher
+         Ajouter une tache
         </button>
       </form>
 
