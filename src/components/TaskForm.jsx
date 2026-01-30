@@ -44,7 +44,7 @@ export default function TaskForm() {
           id="task"
           name="task"
           type="text"
-          placeholder="Add your task"
+          placeholder="Ajoute la tache"
           value={task}
           onChange={(e) => setTask(e.target.value)}
           className="w-full px-4 py-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
@@ -54,7 +54,7 @@ export default function TaskForm() {
           type="submit"
           className="w-full sm:w-auto px-4 py-3 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition"
         >
-          + Add task
+         Ajouter une tacher
         </button>
       </form>
 
